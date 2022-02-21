@@ -10,4 +10,4 @@ def print_matching_words(words, starting_letters):
             if word.startswith(letter):
                 print(word.upper())
 
-print_matching_words(["Hello", "Hey", "goodbye", "Yo", "Yes"], ['h', 'y'])
+print_matching_words(["Hello", "Hey", "goodbye", "Yo", "Yes"], ['h'])
