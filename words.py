@@ -4,8 +4,10 @@ def print_matching_words(words, starting_letters):
     def print_matching_words([words],[starting-letters])
     """
     for word in words:
+        word = word.lower()
         for letter in starting_letters:
+            letter = letter.lower()
             if word.startswith(letter):
                 print(word.upper())
 
-print_matching_words(["hello", "hey", "goodbye", "yo", "yes"], ['y', 'g'])
+print_matching_words(["Hello", "Hey", "goodbye", "Yo", "Yes"], ['h', 'y'])
